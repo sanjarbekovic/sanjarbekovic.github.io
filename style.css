@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    background-size: 100%;
+    background-repeat: repeat-y, repeat-y;
+    background-position: left, right;
+    background-attachment: fixed, fixed;
+}
+.photo{
+    border: 5px solid purple; 
+    box-shadow: 0 0 7px rgb(39, 40, 67); 
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    position:center;
+}
+.name {
+   text-align: center;
+   color:white;
+}
+.image{
+    text-align: center;
+}
+.info{
+text-align: center;
+color: purple;
+font-size:15pt;
+}
+.hobbies{
+    color:white;
+    width:30%;
+    text-align: center;
+    margin-left: 35%;
+    margin-right:35%;
+}
+#link {
+    text-align: center;
+    color:red;
+    text-decoration: none;
+}
+.button{
+    background:purple; 
+    color: white;
+    font-size: 9pt; 
+    height: 40pt;
+    width: 70pt;
+    position: relative;
+    top:13pt;
+    left:45%;
+    font-size: 18pt;
+}
+.inha{
+    position: absolute;
+    top:10pt;
+}
+.logo{
+    box-shadow: 0 0 7px rgb(39, 40, 67); 
+    text-align: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    position:center;
+}
+.movielink {
+    position: relative;
+    top:3pt;
+    left:33pt;
+}
+.homelink {
+    position: relative;
+    top:3pt;
+    right:33pt;
+}
+.poster{
+    float:left;
+    margin-right: 10pt;
+    height: 230pt;
+    width:250pt;
+}
+.movies{
+    padding: 10pt;
+    height:220pt;
+    color: white;
+    text-align: left;
+    font-size: 10pt;
+}
+.about{
+    color:purple;
+    font-size: 18pt;
+}
+
